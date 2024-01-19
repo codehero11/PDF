@@ -1,0 +1,45 @@
+JAVA
+
+DATA TYPE
+ PRIMITIVE DATA TYPE
+    *int
+
+In Java, 'int' is a primitive data type used to represent integer values.
+It is one of the basic data types provided by the Java programming language. 
+Here are some key points about the int data type in Java:
+
+1.Size: The int data type is a 32-bit signed two's complement integer. 
+It can represent integer values in the range of -2^31 to 2^31 - 1.
+
+Declaration and Initialization:
+int myNumber;      // Declaration of an int variable
+myNumber = 42;     // Initialization of the int variable with the value 42
+
+2.Default Value: If you declare an int variable without initializing it, 
+it will have a default value of 0.
+
+3.Arithmetic Operations: You can perform various arithmetic operations on int values, 
+such as addition, subtraction, multiplication, and division.
+
+int a = 10;
+int b = 5;
+int sum = a + b;     // Addition
+int difference = a - b;  // Subtraction
+int product = a * b;  // Multiplication
+int quotient = a / b;  // Division
+
+4.Range Limitations: Since int is a fixed-size data type, 
+it has limitations on the range of values it can represent. 
+If you need to work with larger integers or decimal values, 
+you might use other data types like long or double.
+
+Here's an example of using int in a simple Java program:
+public class IntExample {
+    public static void main(String[] args) {
+        int myNumber = 7;
+        System.out.println("My number is: " + myNumber);
+    }
+}
+
+This program declares an int variable named myNumber and initializes it with the value 7. 
+The program then prints the value of myNumber to the console.
